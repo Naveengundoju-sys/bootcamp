@@ -31,14 +31,15 @@ body{
     padding:10px;
 }
 .header .logo img{
-    height:30px;
-    width: 50px;
+    height:50px;
+    width: 100px;
 }
 .header .icon{
+    font-size:18px;
     color:rgb(25,25,25);
 }
 .slide-1{
-    width:100%;
+    width:90%;
     font-family: myFirstFont;
     /* padding:0 0 0 50px; */
 }
@@ -51,23 +52,23 @@ body{
     padding-top:40px;
 }
 .slide-1 .col-md-4:nth-child(1) h1{
-    color:#654aff;
+    color:#5800ff;
 }
 .slide-1 .col-md-4:nth-child(1) h1 span{
     padding-top:5px;
-    border-top: 5px solid #654aff;
+    border-top: 5px solid #5800ff;
 }
 .slide-1 .col-md-4:nth-child(1) p{
     width: 100%;
     font-weight: bold;
 }
 .slide-1 .col-md-4:nth-child(2) img{
-    height:300px;
+    height:330px;
     width:auto;
 }
 .slide-1 .col-md-4:nth-child(1) button{
-    background: #654aff;
-    border: 3px solid #654aff;
+    background: #5800ff;
+    border: 3px solid #5800ff;
     margin:10px 0 0 0;
     padding:10px 30px;
     border-radius: 3px;
@@ -86,7 +87,7 @@ body{
     }
     .slide-1 .col-md-4:nth-child(1) h1{
         width:200%;
-        color:#654aff;
+        color:#5800ff;
     }
     .slide-1 .col-md-4:nth-child(1) p{
         width: 250%;
@@ -102,46 +103,48 @@ body{
     text-align: center;
     width:100vw;
     height:auto;
-    background-color: #654AFF;
+    background-color: #5800FF;
     color:white;
     padding:17px 0;
 }
 .slide-2 .row{
-    margin:35px 0 0px 20%;
+    margin:35px 0 0px 16%;
 }
 .slide-2 .row .col-md-4{
-    width:200px;
+    width:260px;
     background-color: white;
     margin:20px 20px;
     color:black;
-    border-radius: 5px;
+    border-radius: 10px;
     padding:10px 20px;
 }
 .slide-2 .row .col-md-4 h6{
     font-weight: bolder;
-    color:#654AFF;
+    font-size: 14px;
+    color:#5800FF;
 }
 .slide-2 .row .col-md-4 p{
-    font-size: 14px;
+    font-size: 16px;
 }
 .slide-2 .row .col-md-4 i{
-    font-size: 14px;
-    color:#654AFF;
+    font-size: 20px;
+    color:#5800FF;
     background-color: lightgray;
-    padding:15px;
+    padding:17px;
     border-radius: 50%;
     position: relative;
     top:-30px;
+    margin-bottom: -10px;
 }
 .slide-2 .row .col-md-4 button{
     background: none;
-    border: 2px solid #654AFF;
+    border: 2px solid #5800FF;
     border-radius: 5px;
     padding:4px 10px;
 }
 .slide-2{
     width:100vw;
-    background-color:#654AFF;
+    background-color:#5800FF;
 }
 .slide-3{
     width:100%;
@@ -150,24 +153,37 @@ body{
 .slide-3 .col-md-5 img{
     height:400px;
     width:300px;
-    margin-left:35%;
+    margin:0 10px 0 35%;
+}
+.slide-3 .col-md-5:nth-child(2){
+    padding:30px 0;
+}
+.slide-3 .col-md-5:nth-child(2) h1{
+    letter-spacing: 5px;
 }
 .slide-3 .col-md-5 .p1{
-    color:#654AFF;
+    color:#5800FF;
 }
 .slide-3 .col-md-5 .p2{
     font-size: 16px;
 }
 .slide-3 .col-md-5 .row{
     display:inline-flex;
+    margin:4px 0;
 }
-
+.slide-3 .col-md-5 .row .col-md-1{
+    margin:0 4px 0 0;
+}
 .slide-3 .col-md-5 .row .col-md-1 i{
-    font-size: 20px;
-    background-color: #b896d1;
-    margin:10px 0 0 0;
-    padding:10px;
-    border-radius: 30px;
+    background-color: #f9f7ff;
+    color:#6800ff;
+    margin:4px  0 0;
+    padding:20px;
+    font-size: 24px;
+    border-radius: 50%;
+}
+.slide-3 .col-md-5 .row .col-md-11{
+    margin: 0 0 0 20px;
 }
 .slide-3 .col-md-5 .row .col-md-11 p{
     font-size: 18px;
@@ -177,9 +193,12 @@ body{
     background-color: lightgray ;
     padding-bottom: 50px;   
 }
-.slide-4 .row:nth-child(1) h1,.slide-4 .row:nth-child(1) p{
+.slide-4 .row:nth-child(1) h1{
     text-align: center;
-    color:#654AFF;
+    color:#5800FF;
+}
+.slide-4 .row:nth-child(1) p{
+    text-align: center;
 }
 .slide-4 .row:nth-child(2){
     background-color: whitesmoke;
@@ -192,7 +211,7 @@ body{
     margin:2px 13%;
 }
 .slide-4 .row:nth-child(4){
-    background-color: #654AFF;
+    background-color: #5800ff;
     padding:20px;
     margin:2px 13%;
 }
@@ -200,7 +219,7 @@ body{
     color:white;
 }
 .slide-4 .row .col-md-1 span{
-    color:#654AFF;
+    color:#5800FF;
     font-size:30px;
 }
 .slide-4 .row:nth-child(2) .col-md-11{
@@ -218,17 +237,18 @@ body{
     width:500px;
 }
 .slide-5 .row .col-md-4 i{
-    font-size: 20px;
-    background-color: lightgray;
+    font-size: 24px;
+    background-color: #f9f7ff;
+    color:#5800ff;
     padding:20px;
     border-radius: 50%;
 }
 .slide-5 .row .col-md-4 h1{
-    color:#654aff;
+    color:#5800ff;
 }
 .slide-5 .row .col-md-4 button{
     background: none;
-    border:2px solid #654aff;
+    border:2px solid #5800ff;
     padding:5px 10px;
     border-radius: 3px;
 }
@@ -252,12 +272,12 @@ body{
        height: auto;
     }
     .slide-6 .left p,.slide-6 .left h1{
-        color:#654aff;
+        color:#5800ff;
     }
     .slide-6 .left button{
         background: none;
         padding:5px 10px;
-        border:2px solid #654aff;
+        border:2px solid #5800ff;
     }
     .slide-6 .right img{
         height: 240px;
@@ -272,7 +292,7 @@ body{
         background-size: 200px 100%;
         background-repeat: no-repeat;
         background-size:cover ;
-        background: linear-gradient(to top,#654aff,red);
+        background: linear-gradient(180deg,#d4b6ff,#beb9ff,#a5aeff,#4a78f1);
     }
     .slide-6 .left{
         position: absolute;
@@ -288,12 +308,12 @@ body{
         right:220px;
     }
     .slide-6 .left p,.slide-6 .left h1{
-        color:#654aff;
+        color:#5800ff;
     }
     .slide-6 .left button{
         background: none;
         padding:5px 10px;
-        border:2px solid #654aff;
+        border:2px solid #5800ff;
     }
 }
 .silde-7{
@@ -305,12 +325,12 @@ body{
 }
 .silde-7 .row .col-md-4 h1{
     font-size: 44px;
-    color:#654aff;
+    color:#5800ff;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .silde-7 .row .col-md-4:nth-child(1) h2{
     font-size: 40px;
-    color:#654aff;
+    color:#5800ff;
     font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .silde-7 .row .col-md-4:nth-child(1){
@@ -329,7 +349,7 @@ body{
 }
 .silde-7 .row .col-md-4:nth-child(1) b i{
     color:white;
-    background-color: #654AFF;
+    background-color: #5800FF;
     border-radius: 3px;
 }
 .silde-7 .row .col-md-4:nth-child(1) b span{
@@ -339,7 +359,7 @@ body{
     .silde-7 .row .col-md-4 h1{
         width:200%;
         font-size: 28px;
-        color:#654aff;
+        color:#5800ff;
         font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .silde-7 .row .col-md-4:nth-child(1) h2{
@@ -354,7 +374,7 @@ footer{
     text-align: center;
     width:100vw;
     height:auto;
-    background-color: #654AFF;
+    background-color: #5800ff;
     color:white;
     padding:17px 0;
 }
